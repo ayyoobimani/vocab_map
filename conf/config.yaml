@@ -2,4 +2,6 @@ datasets_path: "/mounts/data/proj/ayyoob/1000LM/final_data_cleaned2"
 languages: "ctd_Latn,pcm_Latn,quc_Latn,wol_Latn,sme_Latn,grc_Grek,ajp_Arab,lzh_Hani,hbo_Hebr"
 raw_data_path: "/mounts/data/proj/ayyoobbig/vocab_map/raw_data/"
 spm_models_path: '/mounts/data/proj/ayyoobbig/vocab_map/spm_models/'
+original_spm: '/mounts/data/proj/ayyoobbig/1000LM/tokenizer/sentencepiece.bpe.model'
+HF_tokenizer_model_name: 'xlm-roberta-base'
 vocab_size: 12000
